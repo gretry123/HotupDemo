@@ -1,0 +1,91 @@
+{
+  "name": "HotupDemo",
+  "platform": "ios",
+  "buildPath": "project://build",
+  "debug": true,
+  "md5Cache": false,
+  "sourceMaps": true,
+  "replaceSplashScreen": false,
+  "mainBundleCompressionType": "merge_dep",
+  "mainBundleIsRemote": false,
+  "mergeStartScene": false,
+  "experimentalEraseModules": false,
+  "compressTexture": true,
+  "packAutoAtlas": true,
+  "startScene": "8a546935-70d4-42d2-a051-8d0e76f28008",
+  "scenes": [
+    {
+      "url": "db://assets/bundle_home/home.scene",
+      "uuid": "b59e0761-ea04-4a78-b7c0-1672219c7f18",
+      "inBundle": true
+    },
+    {
+      "url": "db://assets/scene/hotupdate.scene",
+      "uuid": "8a546935-70d4-42d2-a051-8d0e76f28008",
+      "inBundle": false
+    },
+    {
+      "url": "db://assets/scene/list-with-data.scene",
+      "uuid": "8c6b0112-f426-4ad0-b99f-46b1a0a06111",
+      "inBundle": false
+    },
+    {
+      "url": "db://assets/scene/rocker.scene",
+      "uuid": "540207eb-24f5-4198-9e73-0854aff12ed8",
+      "inBundle": false
+    },
+    {
+      "url": "db://assets/scene/test-list.scene",
+      "uuid": "d282105e-d88e-4458-9f83-513400b9f2b1",
+      "inBundle": false
+    }
+  ],
+  "outputName": "ios",
+  "packages": {
+    "ios": {
+      "packageName": "com.test.hotup",
+      "orientation": {
+        "portrait": true,
+        "upsideDown": false,
+        "landscapeRight": false,
+        "landscapeLeft": false
+      },
+      "renderBackEnd": {
+        "metal": true
+      },
+      "targetVersion": "12.0",
+      "__version__": "1.0.0"
+    },
+    "native": {
+      "polyfills": {
+        "asyncFunctions": true
+      },
+      "encrypted": false,
+      "xxteaKey": "fdhQ6X8UxLLpO6Vw",
+      "compressZip": false,
+      "makeAfterBuild": false,
+      "JobSystem": "taskFlow",
+      "__version__": "1.0.0"
+    },
+    "cocos-service": {
+      "configID": "1d2b28",
+      "services": [],
+      "__version__": "3.0.1"
+    },
+    "hotup-encrypt-crash": {
+      "versionCode": "1.0.0",
+      "sourceMaps": true,
+      "encKey": "123456",
+      "noMergeSrc": true,
+      "cleanSrcMapsCnt": false,
+      "updateConfigDir": "",
+      "updateAssetsDir": "",
+      "noZipExt": "",
+      "noEncExt": "",
+      "noPackExt": "",
+      "packKeepExt": "",
+      "__version__": "1.0.0"
+    }
+  },
+  "__version__": "1.2.9"
+}
