@@ -1,0 +1,12 @@
+{
+  "ver": "1.0.0",
+  "importer": "*",
+  "imported": true,
+  "uuid": "cf74cfef-d004-482a-bfe7-c0a691aef347",
+  "files": [
+    ".mjs",
+    ".json"
+  ],
+  "subMetas": {},
+  "userData": {}
+}
