@@ -1,7 +1,5 @@
-# UI 案例
+# 热更新、加密和崩溃日志插件 案例
 
-一个漂亮的闯关类 UI 模板，包含商店、背包等常见游戏 UI 界面。
+一个基于Cocos案例修改的热更新、加密和崩溃日志插件 案例。
+演示了热更新、子包更新和崩溃日志查看等功能！
 
-## Screenshots
-
-<img width="319" alt="ui-image" src="https://user-images.githubusercontent.com/32630749/158115467-5bf10b77-c5e1-464a-8703-0f368fc29110.png">
