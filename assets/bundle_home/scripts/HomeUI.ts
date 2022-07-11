@@ -1,7 +1,7 @@
 import * as cc from "cc";
 import { Animation, Component, _decorator } from "cc";
 import { MessageBox } from "../../../extensions/hotup-encrypt-crash/assets/hotupdate/Components/MessageBox";
-import { hotupdate } from "../../../extensions/hotup-encrypt-crash/assets/hotupdate/Util/CheckUpdate";
+import { hotup_encrypt_crash_cfg } from "../../../extensions/hotup-encrypt-crash/assets/hotupdate/Util/config";
 import { NewDelayPromise } from "../../../extensions/hotup-encrypt-crash/assets/hotupdate/Util/NewPromise";
 import { UpdateHelper } from "../../../extensions/hotup-encrypt-crash/assets/hotupdate/Util/UpdateHelper";
 import { BackPackUI } from "./BackPackUI";
@@ -143,7 +143,7 @@ export class HomeUI extends Component {
 
     }
 
-    lookCrashLog(){
-        cc.sys.openURL("http://127.0.0.1/demo/crash_log")
+    lookCrashLog() {
+        cc.sys.openURL(hotup_encrypt_crash_cfg.VerUrl + "crash_log")
     }
 }
